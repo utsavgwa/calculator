@@ -44,5 +44,18 @@ body{
 }
 .calc-row{
   display: flex;
-  align-content: stretch;/*so that the buttons should be of same height*/
+  align-content: stretch;/*so that the buttons should be of same height, not going to do much since beforehand they have height*/
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+.calc-button:last-child{
+  background-color: #df974c;
+  color: white;
+}
+
+.calc-button:last-child:hover{
+  background-color: #eeb06d;
+}
+.calc-button:last-child:active{
+  background-color: #dd8d37;
 }
