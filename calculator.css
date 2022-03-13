@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.calc{
+  width: 400px;
+  background-color: #333;
+  color: blanchedalmond;
+}
+.screen{
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  text-align: right;
+  padding: 20px 5px;
+}
