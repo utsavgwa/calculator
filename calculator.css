@@ -19,3 +19,30 @@ body{
   text-align: right;
   padding: 20px 5px;
 }
+.calc-button{
+  background-color: #d8d9db;
+  height: 100px;
+  width: 24.5%; /* because we want that little tiny black gutter in between*/
+  border: none;
+  border-radius: 0;/*this is rounding corners*/
+  font-size: 40px;
+  cursor: pointer;
+}
+.calc-button:hover{
+  background-color: #ebebeb;
+
+}
+.calc-button:active{
+  background-color: #bbbcbe;
+}
+
+.double{
+  width: 49.7%; /*this is very specific to get the right ind of margins*/
+}
+.triple{
+  width: 74.8%; /*this is very specific to get the right ind of margins*/
+}
+.calc-row{
+  display: flex;
+  align-content: stretch;/*so that the buttons should be of same height*/
+}
