@@ -1,61 +1,68 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+.overall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
   padding: 0;
   margin: 0;
 }
 
-.calc{
+.calc {
+  margin: 10px;
+  border-radius: 10px;
+  border: 5px double;
   width: 400px;
   background-color: #333;
   color: blanchedalmond;
 }
-.screen{
+.screen {
   font-size: 40px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: normal;
   text-align: right;
   padding: 20px 5px;
 }
-.calc-button{
+.calc-button {
   background-color: #d8d9db;
   height: 100px;
   width: 24.5%; /* because we want that little tiny black gutter in between*/
   border: none;
-  border-radius: 0;/*this is rounding corners*/
+  border-radius: 0; /*this is rounding corners*/
   font-size: 40px;
   cursor: pointer;
 }
-.calc-button:hover{
+.calc-button:hover {
   background-color: #ebebeb;
-
 }
-.calc-button:active{
+.calc-button:active {
   background-color: #bbbcbe;
 }
 
-.double{
+.double {
   width: 49.7%; /*this is very specific to get the right ind of margins*/
 }
-.triple{
+.triple {
   width: 74.8%; /*this is very specific to get the right ind of margins*/
 }
-.calc-row{
+.calc-row {
   display: flex;
-  align-content: stretch;/*so that the buttons should be of same height, not going to do much since beforehand they have height*/
+  align-content: stretch; /*so that the buttons should be of same height, not going to do much since beforehand they have height*/
   justify-content: space-between;
   margin-bottom: 0.5%;
 }
-.calc-button:last-child{
+.calc-button:last-child {
   background-color: #df974c;
   color: white;
 }
 
-.calc-button:last-child:hover{
+.calc-button:last-child:hover {
   background-color: #eeb06d;
 }
-.calc-button:last-child:active{
+.calc-button:last-child:active {
   background-color: #dd8d37;
 }
