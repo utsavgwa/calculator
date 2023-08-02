@@ -16,11 +16,12 @@ It performs basic **operations** and evaluates **commands** as they are entered.
 
 ## Live Preview
 
-Site is live as [***FEM Calculator***](https://utsavsingh.me/calculator/), go and check it out!
+Site is live as [***FEM Calculator***](https://utsavgwa.github.io/calculator/), go and check it out!
 See how it works.
 
 URL for website is --
-https://utsavsingh.me/calculator/
-
+```
+https://utsavgwa.github.io/calculator/
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
